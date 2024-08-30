@@ -17,7 +17,7 @@ btn.addEventListener('click', function(){
 function getRandomNumber(){
     let hexValue = '#';
     for(let i = 0; i<6; i++){
-        let randomNumber = Math.floor(Math.random()*15);
+        let randomNumber = Math.floor(Math.random()*hex.length);
         hexValue +=  hex[randomNumber];
     }
     return  hexValue;

@@ -18,13 +18,15 @@ body {
 
 /* Navigation Bar */
 .nav-bar {
-    width: 100%;
+    width: 500px;
     background-color: #333;
     padding: 10px 20px;
-    display: flex;
+    text-align: center;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: orange;
+    font-size: 20px;
     border-radius: 20px;
 }
 
@@ -36,6 +38,7 @@ body {
 .nav-links {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     text-transform: capitalize;
     gap: 15px;
 }
@@ -60,13 +63,13 @@ body {
 
 /* Main Content */
 .container {
-    height: 100px;
+    height: 120px;
     width: 500px;
     text-align: center;
     background-color: rgba(205, 80, 13, 0.703);
-    padding: 30px; /* Increased padding for a larger container */
-    border-radius: 10px; /* Slightly increased border radius for a more rounded look */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Enhanced box-shadow for a more pronounced effect */
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -84,10 +87,12 @@ body {
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size:  1rem;
+    border-radius: 8px;
+    font-size:  1rem; 
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 120px; 
+    height: 30px;
 }
 
 .btn:hover {
